@@ -47,7 +47,7 @@ export const BarcodeScanner = () => {
 
   return (
     <div className="w-full h-full relative">
-      <Scanner onScan={handleScan} />
+      <Scanner onScan={handleScan} fullHeight />
       {(barcode || scannedProduct) && (
         <div className="absolute inset-x-0 bottom-6 px-6">
           <ProductDisplay
