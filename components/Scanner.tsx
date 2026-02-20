@@ -19,7 +19,7 @@ export const Scanner = ({ onScan }: ScannerProps) => {
   });
 
   return (
-    <div className="relative w-full aspect-video bg-black rounded-lg overflow-hidden shadow-inner border-2 border-gray-300 dark:border-gray-700">
+    <div className="relative w-full h-full bg-black overflow-hidden">
       <video ref={ref} className="w-full h-full object-cover" />
       <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
         <div className="w-3/4 h-1/2 border-2 border-white/70 rounded-md box-border animate-pulse"></div>
